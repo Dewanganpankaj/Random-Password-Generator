@@ -54,6 +54,8 @@ function App() {
   useEffect(()=>{
     passgen()
   },[length,number,char,setPassword])
+
+  // this is returning
   return (
     <>
       {/*basic div to write the value here 
